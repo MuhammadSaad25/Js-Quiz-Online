@@ -1,0 +1,67 @@
+body{
+    height: 200vh;
+    width: 98vw;
+    background: url(./img/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.matrix_input input {
+    width: 15px;
+    border: 2px double red;
+    text-align: center;
+}
+
+
+.form_input {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+
+.first_form{
+    text-align: center;
+    }
+
+.first_form button{
+    margin: 0;
+    width: 100px;
+    height: 30px;
+
+}
+
+.first_form input {
+    width: 50px;
+    border: 2px double red;
+    text-align: center;
+
+}
+
+.sum_btn {
+    width: 100px;
+    height: 30px;
+}
