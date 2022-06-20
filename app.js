@@ -16,8 +16,8 @@ function start() {
     sum_input.innerHTML = "";
     sum_input1.innerHTML = "";
 
-    first_input = document.querySelector("#first_input").value;
-    second_input = document.querySelector("#second_input").value;
+    first_input = Number(document.querySelector("#first_input").value);
+    second_input = Number(document.querySelector("#second_input").value);
 
     if (first_input == "" || second_input == "") {
         alert("Please enter values");
@@ -91,10 +91,11 @@ function multiplyMatrix(){
         for(let j=0; j< second_input; j++){
     Result2Element.innerHTML += `<div>${result2[i][j]}</div>`
 
-    Result2Element.innerHTML += `<br>`;
+    
 
           // result2.innerHTML += `<div>${result2[i][j]}</div>`
         }
+        Result2Element.innerHTML += `<br>`;
     }
     
 }
