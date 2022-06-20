@@ -95,9 +95,9 @@ function multiplyMatrix(){
 
           // result2.innerHTML += `<div>${result2[i][j]}</div>`
         }
-        Result2Element.innerHTML += `<br>`;
+       
     }
-    
+    Result2Element.innerHTML += `<br>`;
 }
 
 
