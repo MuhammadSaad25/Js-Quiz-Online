@@ -84,10 +84,19 @@ function multiplyMatrix(){
             document.querySelector(`#sum_input_${i}_${j}`).value=result[i][j]
         }
     }
-    let Result2Element = document.querySelector('#sum_input1');
+    
+    let Result2Element = document.querySelector(`#sum_input1`)
 
-    Result2Element.innerText = result2;
+    for (let i=0; i<first_input; i++){
+        for(let j=0; j< second_input; j++){
+    Result2Element.innerHTML += `<div>${result2[i][j]}</div>`
 
+    Result2Element.innerHTML += `<br>`;
+
+          // result2.innerHTML += `<div>${result2[i][j]}</div>`
+        }
+    }
+    
 }
 
 

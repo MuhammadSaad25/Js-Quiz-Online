@@ -79,6 +79,10 @@ h1 {
     padding: 5px;
 }
 
+.matrix_input div{
+    display:inline-block
+}
+
 .matrix_input input {
     width: 30px;
     border: 2px double red;
