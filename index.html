@@ -5,35 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./app.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./mobileStyle.css" media="(max-device-width:600px)">
-    <link rel="stylesheet" href="./mobileStyle2.css" media="(max-device-width:380px)">
+
     <title> Java Script Quiz Online</title>
 
 </head>
 
 <body>
-    <div class="container">
-        <h1>
-            Java Script Quiz Online
-        </h1>
+    <div class="main">
 
-        <form onsubmit="start();  return false" class="first_form">
-            <button type="submit">Start</button>
-        </form> <br><br>
+        <div id="container" class="container box">
+            <h1>
+                Matrix App
+            </h1>
+
+            <button onclick="start()">start</button>
+
+        </div>
+
+
+
+        <div id="container2" class="container2 box">
+            <h2> 1) qustion 1</h2>
+            <div class="row">
+                <input type="radio"/>
+                <label for="">a) op1</label>
+            </div>
+
+        </div>
+
     </div>
 
-   
-    <div class="container2">
-        <form onsubmit="multiplyMatrix(); return false" id="input_form" class="form_input">
 
 
-
-        </form>
-    </div>
-
-
+    <!-- <script src="./app.js"></script> -->
 </body>
 
 </html>
