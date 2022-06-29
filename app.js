@@ -238,9 +238,9 @@ let reset = () => {
 
 let endQuiz = () => {
   document.getElementById("container2").innerHTML = `
-  <h3>Thank you for Attempt Quiz</h3>
-  <h2> ${right} / ${total} are correct
-  `;
+  <h3 style="text-align:center;">Thank you for Attempt Quiz</h3>
+  <h3 style="text-align:center;">Result</h3>
+  <h2 style="text-align:center;">Correct Answer ${right} out of ${total} </h2>`;
 };
 
 loadQuestion();

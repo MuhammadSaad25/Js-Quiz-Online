@@ -31,9 +31,26 @@ body {
     padding: 15px;
 }
 
-/* .container2{ */
-    /* display: none;  */
-/* } */
+.container{
+    text-align: center;
+}
+
+.btn2{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #654ea3;
+    background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);
+    background: linear-gradient(to bottom, #eaafc8, #654ea3);
+  
+}
+
+.container2{
+    display: none; 
+}
 
 .row{
     width: 100%;
