@@ -14,7 +14,7 @@ const questions = [
     correct: "b",
   },
   // Q 2
-  
+
   {
     que: "Where is the correct place to insert a JavaScript?",
     a: "The <head> section",
@@ -23,7 +23,7 @@ const questions = [
     d: "None Of Above",
     correct: "b",
   },
-   // Q 3
+  // Q 3
   {
     que: "What is the correct syntax for referring to an external script called 'xxx.js'?",
     a: "<script src='xxx.js'>",
@@ -113,7 +113,7 @@ const questions = [
     d: "None of the above",
     correct: "a",
   },
-   // Q 13
+  // Q 13
   {
     que: ` ___________ JavaScript is also called client-side JavaScript.`,
     a: `Microsoft`,
@@ -122,7 +122,7 @@ const questions = [
     d: `Native`,
     correct: `b`,
   },
-   // Q 14
+  // Q 14
   {
     que: `What is the correct way to write a JavaScript array?`,
     a: `var colors = "red", "green", "blue"`,
@@ -183,7 +183,7 @@ const questions = [
     c: ` `,
     d: ` `,
     correct: `a`,
-  }
+  },
 ];
 
 let index = 0;
