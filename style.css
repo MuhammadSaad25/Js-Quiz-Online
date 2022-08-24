@@ -5,11 +5,8 @@
 }
 
 body {
-    background: #654ea3;
-    background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);
-    background: linear-gradient(to bottom, #eaafc8, #654ea3);
-    font-family: "Robot",sans-serif;
-
+    background: #444;
+    font-family: "Poppins", sans-serif;
 }
 
 .main {
@@ -22,55 +19,49 @@ body {
     flex-direction: column;
 }
 
-.box{
-    width: 40%;
-    background-color: white;
-    box-shadow: 0px 0px 5px gray;
-    border-radius: 5px;
+.box {
+    position: relative;
+    width: 45%;
     margin: 20px;
     padding: 15px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
-.container{
-    text-align: center;
-}
-
-.btn2{
-    width: 100%;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    background: #654ea3;
-    background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);
-    background: linear-gradient(to bottom, #eaafc8, #654ea3);
-  
-}
-
-.container2{
-    display: none; 
-}
-
-.row{
+.row {
     width: 100%;
     margin: 2rem;
     margin-left: 0;
 }
 
-input{
+input {
     cursor: pointer;
 }
 
 .btn {
-    width: 100%;
-    padding: 5px;
+    width: 100px;
+    height: 35px;
     border: none;
-    border-radius: 5px;
-    font-size: 20px;
+    border-radius: 50px;
+    background: #df4adf;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
     cursor: pointer;
-    background: #654ea3;
-    background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);
-    background: linear-gradient(to bottom, #eaafc8, #654ea3);
-
 }
+
+@media (max-width: 779px) {
+    .box {
+      width: 90vw;
+      /* height: 100vh; */
+    }
+  }
+  
+  @media (max-width: 635px) {
+    .box {
+      width: 100%;
+    }
+  }
