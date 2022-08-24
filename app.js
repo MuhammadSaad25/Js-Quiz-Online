@@ -1,8 +1,3 @@
-let quizdiv = document.querySelector(`.container2`);
-function start() {
-  quizdiv.style.display = "block";
-}
-
 const questions = [
   // Q 1
   {
@@ -240,7 +235,10 @@ let endQuiz = () => {
   document.getElementById("container2").innerHTML = `
   <h3 style="text-align:center;">Thank you for Attempt Quiz</h3>
   <h3 style="text-align:center;">Result</h3>
-  <h2 style="text-align:center;">Correct Answer ${right} out of ${total} </h2>`;
+  <h2 style="text-align:center;">Correct Answer ${right} out of ${total} </h2>
+  <div class="btn" style="display:flex; justify-content: center; align-items: center; overflow: hidden;">
+  <a href="https://muhammadsaad25.github.io/Js-Quiz-Online/" style="color: #fff; text-decoration: none;">Again</a>
+</div>`;
 };
 
 loadQuestion();
