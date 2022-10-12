@@ -20,10 +20,10 @@ const questions = [
   },
   // Q 3
   {
-    que: "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    a: "<script src='xxx.js'>",
-    b: "<script name='xxx.js'>",
-    c: "<script href='xxx.js'>",
+    que: "What is the correct syntax for referring to an external script called 'app.js'?",
+    a: "<script src='app.js'>",
+    b: "<script name='app.js'>",
+    c: "<script href='app.js'>",
     d: "a and c both",
     correct: "a",
   },
